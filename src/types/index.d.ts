@@ -139,6 +139,4 @@ interface WindowConfig {
   imgfile: WindowState;
 }
 
-type WindowConfig = Record<WindowType, WindowState>;
-
 export { WindowType, WindowState, WindowConfig };
