@@ -48,7 +48,7 @@ const renderText = ({ text, className, baseWeight = 400 }: RenderTextProps) => {
 };
 
 const setupTextHover = ({ container, type }: SetupTextHoverProps) => {
-  if (!container.current) return;
+  if (!container.current) return () => {};
 
   const letters = container.current?.querySelectorAll("span");
   if (!letters) return;
