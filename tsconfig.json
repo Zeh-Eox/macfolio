@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "declarationMap": false,
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
