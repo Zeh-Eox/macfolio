@@ -1,0 +1,34 @@
+import WindowControls from "@/components/WindowControls";
+import WindowWrapper from "@/hoc/WindowWrapper";
+import useWindowStore from "@/store/window";
+
+const Image = () => {
+  const { windows } = useWindowStore();
+  const data = windows.imgfile?.data;
+
+  if (!data) return null;
+
+  const { name, imageUrl } = data;
+
+  return (
+    <>
+      <div id="window-header">
+        <WindowControls target="imgfile" />
+        <h2>{name || "Untitled Image"}</h2>
+      </div>
+
+      <div className="p-5 space-y-6 bg-white">
+        {imageUrl ? (
+          <img src={imageUrl} alt={name} className="w-full h-auto rounded" />
+        ) : null}
+      </div>
+    </>
+  );
+};
+
+const ImageWindow = WindowWrapper({
+  Component: Image,
+  windowKey: "imgfile",
+});
+
+export default ImageWindow;

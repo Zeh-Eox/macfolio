@@ -7,6 +7,8 @@ import gsap from "gsap";
 import SafariWindow from "@/windows/Safari";
 import ResumeWindow from "@/windows/Resume";
 import FinderWindow from "@/windows/Finder";
+import TextWindow from "@/windows/Text";
+import ImageWindow from "@/windows/Image";
 
 gsap.registerPlugin(Draggable);
 
@@ -21,6 +23,8 @@ const App = () => {
       <SafariWindow />
       <ResumeWindow />
       <FinderWindow />
+      <TextWindow />
+      <ImageWindow />
     </main>
   );
 };
