@@ -4,8 +4,9 @@ import Dock from "@/components/Dock";
 import TerminalWindow from "@/windows/Terminal";
 import { Draggable } from "gsap/Draggable";
 import gsap from "gsap";
-import SafariWindow from "./windows/Safari";
-import ResumeWindow from "./windows/Resume";
+import SafariWindow from "@/windows/Safari";
+import ResumeWindow from "@/windows/Resume";
+import FinderWindow from "@/windows/Finder";
 
 gsap.registerPlugin(Draggable);
 
@@ -19,6 +20,7 @@ const App = () => {
       <TerminalWindow />
       <SafariWindow />
       <ResumeWindow />
+      <FinderWindow />
     </main>
   );
 };
