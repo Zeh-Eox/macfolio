@@ -64,12 +64,12 @@ const dockApps: DockApps[] = [
     icon: "safari.png",
     canOpen: true,
   },
-  {
-    id: "photos",
-    name: "Gallery", // was "Photos"
-    icon: "photos.png",
-    canOpen: true,
-  },
+  // {
+  //   id: "photos",
+  //   name: "Gallery", // was "Photos"
+  //   icon: "photos.png",
+  //   canOpen: true,
+  // },
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
@@ -93,25 +93,10 @@ const dockApps: DockApps[] = [
 const blogPosts: BlogPosts[] = [
   {
     id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "",
-    link: "",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "",
-    link: "",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "",
-    link: "",
+    date: "05/12/2025",
+    title: "Deploying a Fullstack Application in a Single Box",
+    image: "/images/two-box.png",
+    link: "https://medium.com/@arnoldcnv99/deploying-a-fullstack-application-in-a-single-box-how-to-serve-the-frontend-from-the-backend-and-7bf277dd22b3",
   },
 ];
 

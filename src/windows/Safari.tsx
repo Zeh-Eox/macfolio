@@ -10,21 +10,10 @@ import {
   Share,
   ShieldHalf,
 } from "lucide-react";
-// import MoveRight from "lucide-react"
+import { MoveRight } from "lucide-react";
+import { blogPosts } from "@/constants";
 
 const Safari = () => {
-  // const blogPosts = [
-  //   {
-  //     id: 1,
-  //     date: "",
-  //     title: "",
-  //     image: "",
-  //     link: "",
-  //   },
-  // ];
-
-  // Blog Posts must be in this format and be added to the blogPosts array
-
   return (
     <>
       <div id="window-header">
@@ -58,11 +47,9 @@ const Safari = () => {
       </div>
 
       <div className="blog">
-        <h2>My Developper Blog</h2>
+        <h2>My Developper Articles</h2>
 
-        <div className="space-y-8 h-72">Blog Content Coming Soon...</div>
-
-        {/* {blogPosts.map(({ id, date, title, image, link }) => (
+        {blogPosts.map(({ id, date, title, image, link }) => (
           <div key={id} className="blog-post">
             <div className="col-span-2">
               <img src={image} alt={title} />
@@ -76,7 +63,7 @@ const Safari = () => {
               </a>
             </div>
           </div>
-        ))} */}
+        ))}
       </div>
     </>
   );

@@ -17,7 +17,9 @@ const Contact = () => {
           className="w-20 h-20 rounded-full"
         />
         <h3>Let's Connect</h3>
-        <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>*
+        <p className="py-3">
+          Got an idea? A bug to squash? Or just wanna talk tech? I'm in.
+        </p>
         <ul>
           {socials.map(({ id, bg, link, icon, text }) => (
             <li key={id} style={{ backgroundColor: bg }}>
