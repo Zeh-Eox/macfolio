@@ -98,6 +98,13 @@ const blogPosts: BlogPosts[] = [
     image: "/images/two-box.png",
     link: "https://medium.com/@arnoldcnv99/deploying-a-fullstack-application-in-a-single-box-how-to-serve-the-frontend-from-the-backend-and-7bf277dd22b3",
   },
+  {
+    id: 1,
+    date: "08/12/2025",
+    title: "Why TypeScript Is More Secure Than JavaScript",
+    image: "/images/Typescript.webp",
+    link: "https://medium.com/@arnoldcnv99/why-typescript-is-more-secure-than-javascript-and-why-most-developers-cant-explain-why-db4620dc9c4d",
+  },
 ];
 
 const techStack: TechStack[] = [

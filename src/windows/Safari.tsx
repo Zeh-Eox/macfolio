@@ -50,7 +50,7 @@ const Safari = () => {
         <h2>My Developper Articles</h2>
 
         {blogPosts.map(({ id, date, title, image, link }) => (
-          <div key={id} className="blog-post">
+          <div key={id} className="blog-post py-3">
             <div className="col-span-2">
               <img src={image} alt={title} />
             </div>
