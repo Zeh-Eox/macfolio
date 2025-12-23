@@ -10,12 +10,14 @@ import FinderWindow from "@/windows/Finder";
 import TextWindow from "@/windows/Text";
 import ImageWindow from "@/windows/Image";
 import ContactWindow from "@/windows/Contact";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 gsap.registerPlugin(Draggable);
 
 const App = () => {
   return (
     <main>
+      <SpeedInsights />
       <Navbar />
       <Welcome />
       <Dock />
