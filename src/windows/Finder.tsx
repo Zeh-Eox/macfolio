@@ -48,7 +48,7 @@ const Finder = () => {
       <ul>
         {items.map((item) => (
           <li
-            key={item.id}
+            key={`${item.id}-${item.name}`}
             onClick={() => {
               if (isFolderItem(item)) {
                 setActiveLocation(item as any);
@@ -83,7 +83,7 @@ const Finder = () => {
         <ul className="content">
           {activeLocation?.children?.map((item) => (
             <li
-              key={item.id}
+              key={`${item.id}-${item.name}`}
               className={item.position}
               onClick={() => openItem(item)}
             >
