@@ -1,7 +1,7 @@
 export interface NavItem {
   id: number;
   name: string;
-  type?: string;
+  type: keyof WindowConfig;
 }
 
 export interface NavIcons {
