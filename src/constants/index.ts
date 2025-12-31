@@ -44,11 +44,7 @@ const navIcons: NavIcons[] = [
   {
     id: 3,
     img: "/icons/user.svg",
-  },
-  {
-    id: 4,
-    img: "/icons/mode.svg",
-  },
+  }
 ];
 
 const dockApps: DockApps[] = [
@@ -99,11 +95,25 @@ const blogPosts: BlogPosts[] = [
     link: "https://medium.com/@arnoldcnv99/deploying-a-fullstack-application-in-a-single-box-how-to-serve-the-frontend-from-the-backend-and-7bf277dd22b3",
   },
   {
-    id: 1,
+    id: 2,
     date: "08/12/2025",
     title: "Why TypeScript Is More Secure Than JavaScript",
     image: "/images/Typescript.webp",
     link: "https://medium.com/@arnoldcnv99/why-typescript-is-more-secure-than-javascript-and-why-most-developers-cant-explain-why-db4620dc9c4d",
+  },
+  {
+    id: 3,
+    date: "24/12/2025",
+    title: "Process Scheduling: The Invisible Genius Behind Every Modern Computer",
+    image: "/images/process.webp",
+    link: "https://medium.com/@arnoldcnv99/process-scheduling-the-invisible-genius-behind-every-modern-computer-373e4e53e35b",
+  },
+  {
+    id: 4,
+    date: "30/12/2025",
+    title: "Why the Linux Command Line Matters (Especially for Beginners)",
+    image: "/images/linux-shell.webp",
+    link: "https://medium.com/@arnoldcnv99/why-the-linux-command-line-matters-especially-for-beginners-ac104c240363",
   },
 ];
 
